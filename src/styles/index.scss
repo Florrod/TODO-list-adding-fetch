@@ -6,10 +6,10 @@ input{
     height: 4rem;
     border: 1px solid #dee2e6;
     padding-left: 40px;
-    color: #757575;
+    color: #3b3b3b;
 }
 input::placeholder{
-      color: #757575;
+      color: #3b3b3b;
 }
 #app{
     display: flex;
@@ -17,8 +17,8 @@ input::placeholder{
 }
 h1{
     text-align: center;
-    font-size: 10rem;
-    color: #dab7b7;
+    font-size: 6rem;
+    color: #8a8a8a;
 }
 .main{
     width: 70%;
@@ -36,7 +36,7 @@ li{
     border: 1px solid #dee2e6;
     border-top: none;
     padding: 10px 40px;
-    color: #757575;
+    color: #3b3b3b;
 }
 li:last-child {
   background-color: white !important;
@@ -45,7 +45,7 @@ li:nth-child(even) {
   background-color: white;
 }
 li:nth-child(odd) {
-  background-color: #dab7b7;
+  background-color: #8a8a8a;
 }
 .taskCounter {
   height: 30px;
@@ -60,7 +60,7 @@ li:nth-child(odd) {
   padding: 30px;
 }
 .delLi{
-    color: red;
+    color: black;
     border: none;
     background-color: none;
     width: 20px;

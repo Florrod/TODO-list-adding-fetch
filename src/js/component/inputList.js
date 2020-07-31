@@ -11,7 +11,7 @@ export class InputList extends React.Component {
 	render() {
 		return (
 			<div className="main">
-				<h1>todos</h1>
+				<h1>To do list</h1>
 				<input type="text" placeholder="What need to be done?" onKeyPress={this.addToList} />
 				<List
 					lista={this.state.lista}
@@ -26,8 +26,8 @@ export class InputList extends React.Component {
 		fetch("https://assets.breatheco.de/apis/fake/todos/user/florrod")
 			.then(response => response.json(), console.log("succes"))
 			.then(data => {
-				for (let z in data) {
-					this.setState({ lista: [...this.state.lista, data[z]] });
+				for (let x in data) {
+					this.setState({ lista: [...this.state.lista, data[x]] });
 				}
 			});
 	}
